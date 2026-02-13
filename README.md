@@ -16,6 +16,11 @@ A containerized development sandbox based on Fedora 43 with personal dotfiles an
 podman build -f sandbox.containerfile -t sandbox .
 ```
 
+Or, just refernce directly from URL:
+
+```sh
+podman build -f https://raw.githubusercontent.com/davidhinkes/containerfiles/refs/heads/main/sandbox.containerfile .
+```
 ## Run
 
 ```sh
